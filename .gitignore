@@ -1,0 +1,48 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual environment ---
+venv/
+ENV/
+env/
+.venv/
+.env/
+
+# --- IDE files ---
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
+# --- Logs and temporary files ---
+*.log
+*.tmp
+*.swp
+
+# --- Jupyter and IPython ---
+.ipynb_checkpoints
+*.ipynb_*
+
+# --- Environment and configuration files ---
+.env
+*.bak
+*.cfg
+*.ini
+
+# --- Compiled or distribution folders ---
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# --- Test and coverage reports ---
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
