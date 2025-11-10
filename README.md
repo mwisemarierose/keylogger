@@ -156,16 +156,3 @@ python consented_recorder.py
 
 ---
 
-
-## License & attribution
-
-This project is for educational use. Do not distribute or use the code for malicious purposes. If you adapt the code for a course, add appropriate attribution and a clear ethics statement in your materials.
-
----
-
-If you want, I can:
-
-* Add this README into the repo (I already created it in the canvas).
-* Produce `CONSENT.txt` with a fillable template and add `run-lab.sh` automation that runs the baseline detector and opens the demo app.
-
-Which would you like next?
