@@ -134,19 +134,6 @@ python consented_recorder.py
 
 ---
 
-## Example classroom workflow
-
-1. Create a VM snapshot (recommended).
-2. Students sign `CONSENT.txt`.
-3. Instructor: `source .venv/bin/activate` (or activate in PowerShell).
-4. Run `python scripts/detector.py` — baseline.
-5. Launch `python scripts/demo_attached_logger.py`; enable logging in the UI and type some text.
-6. Re-run `python scripts/detector.py` — discuss findings.
-7. Launch `python scripts/consented_recorder.py` on another terminal; provide consent and generate a partial export; stop with ESC and inspect ZIP.
-8. Students produce a short report describing indicators and recommendations.
-
----
-
 ## Troubleshooting & notes
 
 * **macOS Accessibility:** macOS blocks global input capture until you allow Accessibility permission for Terminal/Python in System Settings → Security & Privacy → Privacy → Accessibility.
@@ -169,11 +156,6 @@ python consented_recorder.py
 
 ---
 
-## Consent template
-
-See `CONSENT.txt` in the repo. Ensure every participant signs before running scripts that record input.
-
----
 
 ## License & attribution
 
